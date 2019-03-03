@@ -37,7 +37,7 @@ footer {
 }
 .sidebar {
     height: 100%;
-    width: 320px;
+    width: 15%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -47,21 +47,23 @@ footer {
     padding-top: 20px;
 }
 .content {
-    margin-left: 320px;
+    margin-left: 25%;
     padding: 0px 10px;
+    color: var(--color-secondary-1-1)
 }
 .profile {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
+    background-color: var(--color-secondary-2-3);
 }
 button {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: var(--color-primary-1);
+    color: var(--color-primary-4);
     background-color: var(--color-secondary-2-1);
     text-align: center;
     cursor: pointer;
